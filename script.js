@@ -8,8 +8,8 @@ image.addEventListener('load', function(){
     canvas.height = 420;
 
     let particlesArray = [];
-    const numberOfParticles = 5000;
-    const detail = 1;
+    const numberOfParticles = 10000;
+    const detail = 20;
 
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
     const pixels = ctx.getImageData(0, 0, canvas.width, canvas.height);
